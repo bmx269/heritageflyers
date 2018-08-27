@@ -76,14 +76,14 @@ module.exports = function(defaults) {
     },
     'esw-prember': {
       version: '1'
-  }//,
-  // 'prember': {
-  //   baseRoot: 'https://smallrobot.co',
-  //   enabled: true,
-  //   urls: [
-  //     '/',
-  //   ]
-  // }
+    },
+    'prember': {
+      baseRoot: 'https://heritageflyers.com',
+      enabled: true,
+      urls: [
+        '/',
+      ]
+    }
   });
   return app.toTree();
 };
