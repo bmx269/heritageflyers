@@ -5,7 +5,8 @@ module.exports = function(environment) {
     modulePrefix: 'heritageflyers',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'router-scroll',
+    historySupportMiddleware: true,
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -20,7 +21,11 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    } //,
+    // fastboot: {
+    //   hostWhitelist: ['smallrobot.co', 'dev.smallrobot.co', /^localhost:\d+$/],
+    //   // EXPERIMENTAL_RENDER_MODE_SERIALIZE: true
+    // }
   };
 
   if (environment === 'development') {
