@@ -50,6 +50,7 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-metrics": "^0.12.1",
     "ember-resolver": "^4.0.0",
+    "ember-router-scroll": "^0.7.1",
     "ember-scroll-to": "^0.6.4",
     "ember-service-worker": "^0.6.13",
     "ember-service-worker-asset-cache": "^0.6.3",
@@ -60,10 +61,10 @@
     "ember-web-app": "^2.3.0",
     "eslint-plugin-ember": "^5.0.0",
     "loader.js": "^4.2.3",
-    "qunit-dom": "^0.6.2",
     "prember": "^0.4.0",
     "prember-middleware": "^0.1.0",
-    "prember-sitemap-generator": "^0.1.1"
+    "prember-sitemap-generator": "^0.1.1",
+    "qunit-dom": "^0.6.2"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
