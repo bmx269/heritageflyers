@@ -2,4 +2,30 @@
   &.mission {
     background: #F6F6F6;
   }
+  &.get-ready-cta {
+    background: #76B9ED url('/img/get-ready.jpg') center center no-repeat;
+    background-size: cover;
+
+
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+
+    h2 {
+      color: #FFFFFF;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+  }
+  &.who-are-we {
+    background: #76B9ED url('/img/who-are-we.jpg') center center no-repeat;
+    background-size: cover;
+
+
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+
+    h2 {
+      color: #FFFFFF;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+  }
 }
