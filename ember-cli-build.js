@@ -88,44 +88,44 @@ module.exports = function(defaults) {
           sizes: [1024]
         }
       ]
-    }//,
-    // 'ember-service-worker': {
-    //   enabled: true,
-    //   registrationStrategy: 'inline',
-    //   versionStrategy: 'every-build'
-    // },
-    // 'asset-cache': {
-    //   include: [
-    //     'assets/**/*',
-    //     'favicons/**/*',
-    //     'fonts/**/*',
-    //     'img/**/*',
-    //     '/api/(.+)'
-    //   ],
-    //   version: '10',
-    //   requestMode: 'cors'
-    // },
-    // 'esw-cache-first': {
-    //   patterns: [
-    //     '/assets/(.+)',
-    //     '/img/(.+)'
-    //   ]
-    // },
-    // 'esw-cache-fallback': {
-    //   patterns: [
-    //     '/api/(.+)'
-    //   ],
-    // },
-    // 'esw-prember': {
-    //   version: '1'
-    // },
-    // 'prember': {
-    //   baseRoot: 'https://heritageflyers.com',
-    //   enabled: true,
-    //   urls: [
-    //     '/',
-    //   ]
-    // }
+    },
+    'ember-service-worker': {
+      enabled: true,
+      registrationStrategy: 'inline',
+      versionStrategy: 'every-build'
+    },
+    'asset-cache': {
+      include: [
+        'assets/**/*',
+        'favicons/**/*',
+        'fonts/**/*',
+        'img/**/*',
+        '/api/(.+)'
+      ],
+      version: '10',
+      requestMode: 'cors'
+    },
+    'esw-cache-first': {
+      patterns: [
+        '/assets/(.+)',
+        '/img/(.+)'
+      ]
+    },
+    'esw-cache-fallback': {
+      patterns: [
+        '/api/(.+)'
+      ],
+    },
+    'esw-prember': {
+      version: '1'
+    },
+    'prember': {
+      baseRoot: 'https://heritageflyers.com',
+      enabled: true,
+      urls: [
+        '/',
+      ]
+    }
   });
   return app.toTree();
 };
