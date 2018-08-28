@@ -39,51 +39,93 @@ module.exports = function(defaults) {
           sizes: [32, 192, 280, 512]
         },
         {
-          inputFilename: 'public/img/splash.png',
-          outputFileName: 'appsplash-',
-          convertTo: 'png',
-          destination: 'assets/splashes/',
-          sizes: [512]
+          inputFilename: 'public/img/gallery/img-1.jpg',
+          outputFileName: 'img-1.jpg',
+          convertTo: 'jpg',
+          destination: 'public/img/gallery/resize/',
+          sizes: [1024]
+        },
+        {
+          inputFilename: 'public/img/gallery/img-2.jpg',
+          outputFileName: 'img-2.jpg',
+          convertTo: 'jpg',
+          destination: 'public/img/gallery/resize/',
+          sizes: [1024]
+        },
+        {
+          inputFilename: 'public/img/gallery/img-3.jpg',
+          outputFileName: 'img-3.jpg',
+          convertTo: 'jpg',
+          destination: 'public/img/gallery/resize/',
+          sizes: [1024]
+        },
+        {
+          inputFilename: 'public/img/gallery/img-4.jpg',
+          outputFileName: 'img-4.jpg',
+          convertTo: 'jpg',
+          destination: 'public/img/gallery/resize/',
+          sizes: [1024]
+        },
+        {
+          inputFilename: 'public/img/gallery/img-5.jpg',
+          outputFileName: 'img-5.jpg',
+          convertTo: 'jpg',
+          destination: 'public/img/gallery/resize/',
+          sizes: [1024]
+        },
+        {
+          inputFilename: 'public/img/gallery/img-6.jpg',
+          outputFileName: 'img-6.jpg',
+          convertTo: 'jpg',
+          destination: 'public/img/gallery/resize/',
+          sizes: [1024]
+        },
+        {
+          inputFilename: 'public/img/gallery/img-7.jpg',
+          outputFileName: 'img-7.jpg',
+          convertTo: 'jpg',
+          destination: 'public/img/gallery/resize/',
+          sizes: [1024]
         }
       ]
-    },
-    'ember-service-worker': {
-      enabled: true,
-      registrationStrategy: 'inline',
-      versionStrategy: 'every-build'
-    },
-    'asset-cache': {
-      include: [
-        'assets/**/*',
-        'favicons/**/*',
-        'fonts/**/*',
-        'img/**/*',
-        '/api/(.+)'
-      ],
-      version: '10',
-      requestMode: 'cors'
-    },
-    'esw-cache-first': {
-      patterns: [
-        '/assets/(.+)',
-        '/img/(.+)'
-      ]
-    },
-    'esw-cache-fallback': {
-      patterns: [
-        '/api/(.+)'
-      ],
-    },
-    'esw-prember': {
-      version: '1'
-    },
-    'prember': {
-      baseRoot: 'https://heritageflyers.com',
-      enabled: true,
-      urls: [
-        '/',
-      ]
-    }
+    }//,
+    // 'ember-service-worker': {
+    //   enabled: true,
+    //   registrationStrategy: 'inline',
+    //   versionStrategy: 'every-build'
+    // },
+    // 'asset-cache': {
+    //   include: [
+    //     'assets/**/*',
+    //     'favicons/**/*',
+    //     'fonts/**/*',
+    //     'img/**/*',
+    //     '/api/(.+)'
+    //   ],
+    //   version: '10',
+    //   requestMode: 'cors'
+    // },
+    // 'esw-cache-first': {
+    //   patterns: [
+    //     '/assets/(.+)',
+    //     '/img/(.+)'
+    //   ]
+    // },
+    // 'esw-cache-fallback': {
+    //   patterns: [
+    //     '/api/(.+)'
+    //   ],
+    // },
+    // 'esw-prember': {
+    //   version: '1'
+    // },
+    // 'prember': {
+    //   baseRoot: 'https://heritageflyers.com',
+    //   enabled: true,
+    //   urls: [
+    //     '/',
+    //   ]
+    // }
   });
   return app.toTree();
 };

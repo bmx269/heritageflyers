@@ -38,3 +38,16 @@ img {
 .loading-content {
   height: 100vh;
 }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"],
+  > [class*="col-md-"],
+  > [class*="col-lg-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
