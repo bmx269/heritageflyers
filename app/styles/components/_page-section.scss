@@ -45,6 +45,17 @@
       text-shadow: 0 2px 4px rgba(0,0,0,0.50);
     }
   }
+  &.event-date-cta {
+    background: #9CA8B4 url('/img/event-date-cta.jpg') center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+
+    h2 {
+      color: #FFFFFF;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+  }
   &.who-are-we {
     background: #76B9ED url('/img/who-are-we.jpg') center center no-repeat;
     background-size: cover;
@@ -61,3 +72,18 @@
     }
   }
 }
+
+footer {
+  background: $gray-800;
+  color: $gray-500;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+
+  .map {
+    background: #76B9ED url('/img/map.jpg') center center no-repeat;
+    background-size: cover;
+    height: 200px;
+  }
+}
+
