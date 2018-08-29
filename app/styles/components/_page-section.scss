@@ -2,8 +2,40 @@
   &.mission {
     background: #F6F6F6;
   }
+  &.hero-banner {
+    background: #AFBBB3 url('/img/hero-banner.jpg') center center no-repeat;
+    background-size: cover;
+    color: #fff;
+
+    .row {
+      height: 400px;
+
+      @include media-breakpoint-up(md) {
+        height: 400px;
+      }
+    }
+
+    h1.hero {
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 2rem;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 1rem;
+
+      @include media-breakpoint-up(md) {
+        font-size: 3rem;
+      }
+    }
+    .subhead {
+      font-size: .8rem;
+
+      @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+      }
+    }
+  }
   &.get-ready-cta {
-    background: #76B9ED url('/img/get-ready.jpg') center center no-repeat;
+    background: #1A2932 url('/img/get-ready.jpg') center center no-repeat;
     background-size: cover;
     color: #fff;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);

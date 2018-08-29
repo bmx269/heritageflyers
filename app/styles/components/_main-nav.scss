@@ -1,0 +1,45 @@
+.site-info {
+  .logo {
+    max-width: 150px;
+    margin: auto;
+  }
+}
+
+.main-nav {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 2rem;
+}
+
+nav.main {
+  margin-top: 1rem;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 0;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    font-size: .7rem;
+    color: #fff;
+    font-weight: $font-weight-semibold;
+    padding: 0.15rem .5rem;
+
+    @include media-breakpoint-up(md) {
+      padding: 0.5rem 1rem;
+      font-size: .8rem;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #3B2314;
+    }
+    
+  }
+}
