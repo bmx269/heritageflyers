@@ -37,6 +37,10 @@ const Router = EmberRouter.extend(RouterScroll, {
 Router.map(function() {
   this.route('index', { path: '/' });
   this.route('notfound', { path: '/*path' });
+  this.route('gallery');
+  this.route('mission');
+  this.route('help-us');
+  this.route('testimonials');
 });
 
 export default Router;

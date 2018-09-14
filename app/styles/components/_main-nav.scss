@@ -37,9 +37,10 @@ nav.main {
 
     &:hover,
     &:focus,
-    &:active {
+    &:active,
+    &.active {
       color: #3B2314;
     }
-    
+
   }
 }
