@@ -21,7 +21,11 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    } //,
+    }, //,
+    'ember-light-gallery': {
+      plugins: ['thumbnail', 'fullscreen', 'zoom'],
+      transitions: true
+    }
     // fastboot: {
     //   hostWhitelist: ['smallrobot.co', 'dev.smallrobot.co', /^localhost:\d+$/],
     //   // EXPERIMENTAL_RENDER_MODE_SERIALIZE: true

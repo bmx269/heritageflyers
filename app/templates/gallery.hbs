@@ -3,4 +3,11 @@
 {{/page-section}}
 
 
-{{outlet}}
+{{#light-gallery-content
+  collection=images
+  thumbnail=true
+  animateThumb=false
+  showThumbByDefault=false
+  as |image gallery|}}
+  {{gallery.image href=image}}
+{{/light-gallery-content}}
