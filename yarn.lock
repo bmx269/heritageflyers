@@ -4938,7 +4938,7 @@ ember-runtime-enumerable-includes-polyfill@^2.0.0:
     ember-cli-babel "^6.9.0"
     ember-cli-version-checker "^2.1.0"
 
-ember-scroll-to@^0.6.4:
+ember-scroll-to@^0.6.5:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/ember-scroll-to/-/ember-scroll-to-0.6.5.tgz#d9a7658eed6b8ae0e3c71b93b03f59a8550b8a10"
   integrity sha512-NhryCudMUO/D8cjATgnvL5slYwmduBt4qKPEThmd04ZItjowMkpIGC0a3MCSSsrrzwKd0WMyogRmZG8XUWZjFA==
